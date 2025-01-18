@@ -31,13 +31,10 @@ By adopting a GitOps approach, ArgoCD ensures the desired state defined in the r
 File Descriptions
 
 •	deploy.yaml
-
-Configuration file for the deployment, including replicas, container images, and other deployment-specific configurations.
+:-  Configuration file for the deployment, including replicas, container images, and other deployment-specific configurations.
 
 •	pod.yaml
-
-Describes the specifications for the Kubernetes pod, including container configurations and resource requirements.
+:-  Describes the specifications for the Kubernetes pod, including container configurations and resource requirements.
 
 •	service.yaml
-
-Defines the Kubernetes service to expose the application to internal or external networks.
+:-  Defines the Kubernetes service to expose the application to internal or external networks.
