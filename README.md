@@ -1,9 +1,10 @@
-CICD Manifest Repository
+CICD MANIFEST REPOSITORY
 
 This repository contains Kubernetes manifests used for deploying and managing applications as part of a Continuous Integration and Continuous Deployment (CI/CD) pipeline. It includes YAML configurations for deploying pods, services, and other resources.
 
 
-Directory Structure
+
+DIRECTORY STRUCTURE
 
 
 /Deploy/
@@ -17,7 +18,8 @@ Directory Structure
 ├── service.yaml   # Configures the Kubernetes service for exposing the application
 
 
-Purpose
+
+PURPOSE
 
 The cicd-manifest-repo is designed to be used in CI/CD pipelines to automate the deployment process for applications running on Kubernetes. In this process, Jenkins and ArgoCD play key roles:
 
@@ -28,7 +30,8 @@ The cicd-manifest-repo is designed to be used in CI/CD pipelines to automate the
 By adopting a GitOps approach, ArgoCD ensures the desired state defined in the repository matches the actual state in the cluster, providing consistency and traceability.
 
 
-File Descriptions
+
+FILE DESCRIPTIONS
 
 •	deploy.yaml
 :-  Configuration file for the deployment, including replicas, container images, and other deployment-specific configurations.
